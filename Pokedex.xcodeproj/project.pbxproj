@@ -18,6 +18,7 @@
 		35B06F6F1F0743D1005CF705 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B06F6E1F0743D1005CF705 /* csv.swift */; };
 		35B06F711F074738005CF705 /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35B06F701F074738005CF705 /* pokemon.ttf */; };
 		35B06F761F0748D2005CF705 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35B06F751F0748D2005CF705 /* music.mp3 */; };
+		35B06F781F080B19005CF705 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B06F771F080B19005CF705 /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		35B06F6E1F0743D1005CF705 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = csv.swift; path = Pokedex/csv.swift; sourceTree = "<group>"; };
 		35B06F701F074738005CF705 /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pokemon.ttf; path = Pokedex/pokemon.ttf; sourceTree = "<group>"; };
 		35B06F751F0748D2005CF705 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		35B06F771F080B19005CF705 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				3595AAE71F073350007E7BD9 /* ViewController.swift */,
+				35B06F771F080B19005CF705 /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			path = ..;
@@ -205,6 +208,7 @@
 				358FB4F11F073ADA006F5C48 /* PokeCell.swift in Sources */,
 				3595AAE81F073350007E7BD9 /* ViewController.swift in Sources */,
 				3595AAE61F073350007E7BD9 /* AppDelegate.swift in Sources */,
+				35B06F781F080B19005CF705 /* PokemonDetailVC.swift in Sources */,
 				358FB4EE1F0735F5006F5C48 /* Pokemon.swift in Sources */,
 				35B06F6F1F0743D1005CF705 /* csv.swift in Sources */,
 			);
