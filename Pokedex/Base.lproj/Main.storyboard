@@ -161,12 +161,31 @@
                     <view key="view" contentMode="scaleToFill" id="ee2-rY-6n5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wD4-J5-GOP">
+                                <rect key="frame" x="87" y="314" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0hy-M0-jZT"/>
+                                    <constraint firstAttribute="height" constant="40" id="eQe-Qz-ccZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24601682029999999" green="0.72733214319999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wD4-J5-GOP" firstAttribute="centerX" secondItem="ee2-rY-6n5" secondAttribute="centerX" id="4XE-1f-RoM"/>
+                            <constraint firstItem="wD4-J5-GOP" firstAttribute="centerY" secondItem="ee2-rY-6n5" secondAttribute="centerY" id="RVG-O2-PH3"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameLbl" destination="wD4-J5-GOP" id="jko-iy-W6d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KEg-Fl-uwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="137"/>
+            <point key="canvasLocation" x="896.79999999999995" y="136.28185907046478"/>
         </scene>
     </scenes>
     <resources>
